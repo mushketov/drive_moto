@@ -5,34 +5,8 @@ body {
 }
 
 .header {
-  font-family: Roboto;
-  font-weight: 700;
-  margin: 25px auto;
-  background-color: aqua;
+  background-color: antiquewhite;
   width: 1171px;
   height: 153px;
-  display: flex;
-  justify-content: space-between;
+  margin: 0 auto;
 }
-.header > * {
-    border: 1px solid #000;
-}
-
-.header-left {
-  display: flex;
-  align-items: center;
-}
-
-
-.header-logo {}
-
-.header-right {}
-
-.header-right-adress {}
-
-.header-right-proffile {}
-
-.header-right-proffile-bastet {}
-
-.header-right-proffile-bastet-value {}
-
