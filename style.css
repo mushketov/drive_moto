@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
 body {
   margin: 0;
+  overflow: hidden;
 }
 
 .header {
@@ -40,8 +41,28 @@ body {
   align-items: center;
 }
 
-.header-top-proffile {}
+.header-top-proffile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
 
-.header-top-proffile-bastet {}
+.header-top-proffile-bastet {
+  margin-right: 23px;
+  border: 2px solid #fff;
+  position: relative;
+}
 
-.header-top-proffile-bastet-value {}
+.header-top-proffile-bastet-value {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1C62CD;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 500;
+  width: 20px;
+  height: 20px;
+  border-radius: 90px;
+  position: absolute;
+}
