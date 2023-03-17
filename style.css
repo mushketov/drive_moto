@@ -7,6 +7,41 @@ body {
 .header {
   background-color: antiquewhite;
   width: 1171px;
-  height: 153px;
   margin: 0 auto;
 }
+
+.header-top {
+  font-family: Roboto;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  height: 97px;
+}
+
+.header-top>* {
+  border: 2px solid #000;
+}
+
+.header-top {}
+
+.header-top-nav {
+  display: flex;
+  align-items: center;
+}
+
+.header-top-nav a {
+  margin-right: 50px;
+}
+
+.header-top-logo {}
+
+.header-top-adress {
+  display: flex;
+  align-items: center;
+}
+
+.header-top-proffile {}
+
+.header-top-proffile-bastet {}
+
+.header-top-proffile-bastet-value {}
